@@ -16,5 +16,6 @@ describe("meteor-todo-app", function () {
     it("server is not client", function () {
       assert.strictEqual(Meteor.isClient, false);
     });
+    
   }
 });
